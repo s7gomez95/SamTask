@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Actividad</title>
+    <link rel="stylesheet" href="Crear-Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>CREAR ACTIVIDAD</h1>
+    </header>
+    <main>
+        <form>
+            <section>
+                <h2><i class="fa-solid fa-clipboard-list"></i>Datos De La Actividad</h2>
+                <div class="campo formulario">
+                    <label for="tipo">Tipo de Actividad</label>
+                    <select name="tipo" id="tipo" required>
+                        <option value="">Seleccionar una opción</option>
+                        <option value="Instalación">Instalación</option>
+                        <option value="Mantenimiento">Mantenimiento</option>
+                        <option value="Retiro">Retiro</option>
+                        <option value="Migración">Migración</option>
+                    </select>
+                    <label for="prioridad">Prioridad</label>
+                    <select name="prioridad" id="prioridad">
+                        <option value="">Seleccionar una opción</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Urgentes">Urgente</option>
+                    </select>
+            </section>
+            <section class="tarjeta-formulario cliente">
+                <h2><i class="fa-solid fa-user">Datos del cliente</i></h2>
+
+                <label for="nombre">Nombre del cliente</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Perez" required>
+
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Nombre de la empresa">
+
+                <label for="contacto">Contacto</label>
+                <input type="text" id="contacto" name="contacto" placeholder="N° De contacto">              
+                
+            </section>
+            <label for="tipo">Datos del vehiculo</label>
+            <input type="text" placeholder="Patente ">
+            <input type="text" placeholder="Marca">
+            <input type="text" placeholder="Linea">
+            <input type="text" placeholder="Modelo">
+            <input type="text" placeholder="Año">
+            <input type="text" placeholder="Color">
+            <input type="text" placeholder="Vin">
+            <label for="tipo">Programaciòn</label>
+            <input type="text" placeholder="Ciudad">
+            <input type="text" placeholder="Dirección de la actividad">
+            <input type="text" placeholder="Fecha">
+            <input type="text" placeholder="Hora">
+            <label for="tipo">Descripción de la actividad</label>
+            <input type="text" placeholder="Detalles por agregar">
+
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
